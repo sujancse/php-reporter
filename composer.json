@@ -1,0 +1,23 @@
+{
+    "name": "sujan/php-reporter",
+    "description": "A PHP library to generate report in CSV, PDF, XLSX",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sujan Mahmud",
+            "email": "sujancseruet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "ext-pdo": "*",
+        "sujan/php-csv-exporter": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sujan\\Reporter\\": "src/"
+        }
+    }
+}
